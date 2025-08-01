@@ -22,6 +22,5 @@ class PrintTable(Instruction):
         self.__print_row(columns)
         count_columns = len(columns)
         for i in range(0, len(data), count_columns):
-            self.__print_row(data[i:i+count_columns])
+            self.__print_row(data[i:i + count_columns])
         return context
-

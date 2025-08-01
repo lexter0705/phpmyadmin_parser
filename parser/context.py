@@ -8,6 +8,3 @@ from requests import Session
 class Context:
     session: Session = Session()
     last_response: BeautifulSoup = BeautifulSoup()
-
-
-
